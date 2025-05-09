@@ -1,0 +1,25 @@
+FAKE NEWS DETECTION USING MACHINE LEARNING
+
+REQUIREMENTS:
+Pandas
+Scikit-learn
+Numpy
+The version I have used in this project
+Pandas ==2.2.2
+Scikit – learn ==1.4.2
+Numpy ==1.26.4
+Pip freeze>requirements.txt
+
+FAKE NEWS DETECTION REPORT:
+OVERVIEW: This report documents the process and performance evaluation of a fake news detection model build using logistic regression. This model was trained on a labelled dataset of news articles with associated labels indicating whether each article is REAL OR FAKE.
+DATASET : Fake_or_real news dataset
+PREPROCESSING :  Text vectorization : TF –IDF (Term Frequency – Inverse document Frequency)
+Used max_df ==0.7 to ignore overly frequent terms
+MODEL: Logistic regression Library- Scikit – learn
+EVALUATION : Data split- 80% Training 20% testing (train_test_split)
+Accuracy- Approximately x.xx
+CONCLUSION : The logistic regression model with TF-IDF features provided a simple yet effective method for detecting fake news. The evaluation result indicate the model has a reasonable balance between precision and recall for both classes. Further ,improvements  can be explored with more advanced models such as SVMs, Random Forests, or deep learning architecture.
+
+
+  
+ 
